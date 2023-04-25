@@ -1,0 +1,50 @@
+#root {
+  width: 100%;
+}
+
+.content {
+  font-size: 20px;
+  text-align: left;
+  margin: 100px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: #4a808c solid 2px;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #06161b;
+  border: #4a808c solid 2px;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #06161b;
+}
+
+.title {
+  background-color: #092d38;
+  color: #e1e1e6;
+}
+
+.title tr th:first-child {
+  padding-left: 50px;
+}
+
+.profile a {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  color: #e1e1e6;
+}
+
+.profile a:hover {
+  color: #a8a8e9;
+}
+
+.profile img {
+  border-radius: 50%;
+  height: 60px;
+  margin-right: 25px;
+}

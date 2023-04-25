@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header div {
+  display: flex;
+  gap: 8px;
+}
+
+.header form {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  gap: 10px;
+}
+
+.header form input {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  gap: 10px;
+
+  padding-left: 10px;
+  width: 46.2rem;
+  background: #06181c;
+  border-radius: 5px;
+  border: transparent;
+}
