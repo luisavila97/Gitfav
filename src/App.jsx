@@ -1,7 +1,7 @@
 import "./App.css";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-import Table from "./components/Table/Table";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Table from "./components/Table";
 
 import { useQuery } from "react-query";
 import { useEffect, useState, useMemo } from "react";

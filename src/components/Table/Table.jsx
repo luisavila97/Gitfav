@@ -1,4 +1,4 @@
-import TableContent from "../TableContent/TableContent";
+import TableContent from "../TableContent";
 
 export default function Table({ queries }) {
   return (
