@@ -1,6 +1,10 @@
 import TableContent from "../TableContent";
 
 export default function Table({ queries }) {
+  const tables = queries.map((query) => (
+    <TableContent key={query.id} data={query} />
+  ));
+
   return (
     <div className="content">
       <table>
@@ -11,12 +15,7 @@ export default function Table({ queries }) {
             <th>Followers</th>
           </tr>
         </thead>
-
-        <tbody>
-          {queries.map((query) => (
-            <TableContent key={query.id} data={query} />
-          ))}
-        </tbody>
+        <tbody>{tables}</tbody>
       </table>
     </div>
   );
