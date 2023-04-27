@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Table from "./components/Table";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import useFetch from "./hooks/useFetch";
 
 function App() {

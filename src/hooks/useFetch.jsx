@@ -1,5 +1,5 @@
 import { useQuery } from "react-query";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 const useFetch = (user, userList, setQueryArray, queryArray) => {
   const url = `https://api.github.com/users/${user}`;
