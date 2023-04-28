@@ -3,14 +3,10 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Table from "./components/Table";
 
-import { useState } from "react";
 import useFetch from "./hooks/useFetch";
 
 function App() {
-  const [userList, setUserList] = useState(["luisavila97"]);
-  const [queryArray, setQueryArray] = useState([]);
-
-  useFetch(userList.slice(-1), userList, setQueryArray, queryArray);
+  const { userList, setUserList, queryArray } = useFetch();
 
   return (
     <div className="App">
